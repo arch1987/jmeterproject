@@ -12,7 +12,7 @@ export TARGET_PATH="/software-testing.html"
 T_DIR=tests
 R_DIR=tests/reports
 
-./run.sh  -JTARGET_HOST=${TARGET_HOST} \ -JTARGET_PATH=${TARGET_PATH} \ -n -t ${T_DIR}/Test-Plan.jmx -l ${T_DIR}/test-plan.jtl \ -e -o ${R_DIR}
+./run.sh  -JTARGET_HOST=${TARGET_HOST} \ -JTARGET_PATH=${TARGET_PATH} \ -n -t ${T_DIR}/Test-Plan.jmx -l ${T_DIR}/test-plan.jtl \ -e -o $1
 
 echo "==== Raw Test Report ===="
 cat ${T_DIR}/test-plan.jtl
