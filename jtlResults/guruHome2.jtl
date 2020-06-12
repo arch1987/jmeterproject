@@ -1,0 +1,16 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1591881300831,5958,HTTP Request,200,OK,Thread Group 1-5,text,true,,114301,276,5,5,https://www.guru99.com/software-testing.html,869,0,41
+1591881295775,902,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,551,136,5,5,http://guru99.com/software-testing.html,869,0,41
+1591881300831,5038,HTTP Request-1,200,OK,Thread Group 1-5,text,true,,113750,140,5,5,https://www.guru99.com/software-testing.html,4214,0,3754
+1591881300898,6222,HTTP Request,200,OK,Thread Group 1-4,text,true,,114301,276,4,4,https://www.guru99.com/software-testing.html,1066,0,233
+1591881295774,1098,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,551,136,4,4,http://guru99.com/software-testing.html,1066,0,233
+1591881300898,5104,HTTP Request-1,200,OK,Thread Group 1-4,text,true,,113750,140,4,4,https://www.guru99.com/software-testing.html,4193,0,3753
+1591881300902,6351,HTTP Request,200,OK,Thread Group 1-2,text,true,,114301,276,3,3,https://www.guru99.com/software-testing.html,1192,0,362
+1591881295775,1224,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,551,136,3,3,http://guru99.com/software-testing.html,1192,0,362
+1591881300902,5108,HTTP Request-1,200,OK,Thread Group 1-2,text,true,,113750,140,3,3,https://www.guru99.com/software-testing.html,4226,0,3753
+1591881300907,6356,HTTP Request,200,OK,Thread Group 1-3,text,true,,114301,276,2,2,https://www.guru99.com/software-testing.html,1192,0,358
+1591881295775,1224,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,551,136,2,2,http://guru99.com/software-testing.html,1192,0,358
+1591881300907,5113,HTTP Request-1,200,OK,Thread Group 1-3,text,true,,113750,140,2,2,https://www.guru99.com/software-testing.html,4198,0,3753
+1591881300924,6373,HTTP Request,200,OK,Thread Group 1-1,text,true,,114301,276,1,1,https://www.guru99.com/software-testing.html,1192,0,362
+1591881295775,1224,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,551,136,1,1,http://guru99.com/software-testing.html,1192,0,362
+1591881300924,5131,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,113750,140,1,1,https://www.guru99.com/software-testing.html,4333,0,3754
