@@ -9,12 +9,12 @@ export TARGET_HOST="guru99.com"
 export TARGET_PATH="/software-testing.html"
 
 T_DIR=tests
-R_DIR=httpresults
+R_DIR=T_DIR
 
-./run.sh  -JTARGET_HOST=${TARGET_HOST} \ -JTARGET_PATH=${TARGET_PATH} \ -n -t ${T_DIR}/Test-Plan1.jmx -l azurebuildJJtlFiles/test-plan.jtl \ -e -o ${R_DIR}
+./run.sh  -JTARGET_HOST=${TARGET_HOST} \ -JTARGET_PATH=${TARGET_PATH} \ -n -t ${T_DIR}/Test-Plan1.jmx -l ${T_DIR}/test-plan.jtl \ -e -o ${R_DIR}
 
 echo "==== Raw Test Report ===="
-cat azurebuildJJtlFiles/test-plan.jtl
+cat ${T_DIR}/test-plan.jtl
 
 echo "==== HTML Test Report ===="
 echo "See HTML test report in ${R_DIR}/index.html"
